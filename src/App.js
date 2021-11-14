@@ -1,13 +1,14 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 import "./App.css";
-// import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
-    <div className="App">
-      {/* <ScrollToTop /> */}
-      hello
-    </div>
+    <Router>
+      <ScrollToTop />
+      <div className="App">hello</div>
+    </Router>
   );
 }
 

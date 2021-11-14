@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import ScrollToTop from "./ScrollToTop";
+// import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <div className="App">
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       hello
     </div>
   );

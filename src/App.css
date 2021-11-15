@@ -49,7 +49,7 @@ h2 {
   font-style: normal;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) {
   .details {
     writing-mode: horizontal-tb;
     transform: none;

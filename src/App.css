@@ -7,12 +7,62 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bodoni Moda", serif;
+  /* font-family: "Merriweather", serif; */
   font-weight: 300;
+  /* font-size: 14px; */
 }
 
-h1 {
+h1,
+h2 {
   font-family: la-bohemienne, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.horizontal-line {
+  border-bottom: 2px solid #e1e1e4;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.horizontal-line-sm {
+  border-bottom: 1px solid #e1e1e4;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+.details {
+  writing-mode: vertical-rl;
+  transform: scale(-1);
+}
+
+.quote {
+  font-size: 35px;
+  font-family: la-bohemienne, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 550px) {
+  .details {
+    writing-mode: horizontal-tb;
+    transform: none;
+    padding-top: 35px;
+    font-size: 18px;
+  }
+
+  .quote {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .wedding-nav {
+    text-align: center;
+  }
 }

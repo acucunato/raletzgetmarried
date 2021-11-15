@@ -1,0 +1,20 @@
+.nav-link,
+a {
+  color: black;
+}
+
+.nav-link:visited {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+
+  /* border-bottom: 2px solid black; */
+}
+
+.nav-link:hover,
+a:hover {
+  color: rgb(102, 102, 102);
+  /* border-bottom: 1px solid rgb(102, 102, 102); */
+  font-weight: bold;
+  font-style: italic;
+}

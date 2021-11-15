@@ -1,6 +1,6 @@
 import React from "react";
 import "./Monogram.css";
-import monogram from "../img/wedding-05.png";
+import monogram from "../../img/wedding-05.png";
 
 function Monogram() {
   return (

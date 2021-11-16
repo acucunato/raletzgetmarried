@@ -65,4 +65,9 @@ h2 {
   .wedding-nav {
     text-align: center;
   }
+
+  .details-info {
+    margin-top: 0;
+    padding-left: 0;
+  }
 }

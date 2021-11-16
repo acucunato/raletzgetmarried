@@ -1,7 +1,3 @@
-/* .date {
-  border-right: 1px solid black;
-} */
-
 .andsign {
   font-family: la-bohemienne, sans-serif;
   font-weight: 400;
@@ -9,6 +5,23 @@
   font-size: 25px;
 }
 
-.details {
-  background-color: white;
+.hero-image-wd {
+  padding-top: 600px;
+  background: url("../../img/IMG_6811.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.details-info {
+  margin-top: 175px;
+  padding-left: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .details-info {
+    margin-top: 0;
+    padding-left: 0;
+  }
 }

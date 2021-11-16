@@ -1,6 +1,7 @@
 .nav-link,
 a {
   color: black;
+  text-decoration: none;
 }
 
 .nav-link:visited {

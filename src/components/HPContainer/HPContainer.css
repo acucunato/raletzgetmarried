@@ -1,0 +1,35 @@
+.nav-link,
+a {
+  color: black;
+}
+
+.nav-link:visited {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nav-link:hover,
+a:hover {
+  color: rgb(102, 102, 102);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.hero {
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero-image {
+  padding-top: 450px;
+  background: url("../../img/proposalbw.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  text-align: center;
+}

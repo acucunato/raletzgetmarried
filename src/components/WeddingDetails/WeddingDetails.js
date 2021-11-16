@@ -8,13 +8,13 @@ function WeddingDetails() {
       <div className="details-pg">
         <div className="row">
           <Nav />
-          <div className="col-md-4 pt-3 text-center">
+          <div className="col-md-4 pt-3 text-center wow fadeIn delay-2s">
             <h1>we can't wait to celebrate with you</h1>
             <div className="hero-image-wd mx-auto"></div>
             <div className="horizontal-line-sm"></div>
           </div>
 
-          <div className="col-md-2 text-center pt-3 details-info">
+          <div className="col-md-2 text-center pt-3 details-info wow fadeIn delay-2s">
             <h5>
               <b>ceremony</b> <span className="andsign">&</span>{" "}
               <b>reception</b>
@@ -24,6 +24,8 @@ function WeddingDetails() {
             <div className="small">4:30pm-11pm</div>
             <br />
             <div>attire: black tie optional</div>
+            <br />
+            <div className="horizontal-line-sm"></div>
             <br />
             <div>
               <h5>

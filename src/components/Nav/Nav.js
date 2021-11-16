@@ -7,15 +7,22 @@ function Nav() {
     <>
       <div className="col-md-2"></div>
       <div className="col-md-2">
-        <ul class="nav flex-column wedding-nav pt-3 pb-3">
+        <ul class="nav flex-column wedding-nav pt-3 pb-3 wow fadeIn delay-1s">
           <li class="nav-item">
-            <li class="nav-item">
-              <Link to="/details">
-                <a className="nav-link" href="/details">
-                  details
-                </a>
-              </Link>
-            </li>
+            <Link to="/">
+              <a className="nav-link" href="/">
+                home
+              </a>
+            </Link>
+          </li>
+          <li class="nav-item">
+            <Link to="/details">
+              <a className="nav-link" href="/details">
+                details
+              </a>
+            </Link>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">
               photos
             </a>

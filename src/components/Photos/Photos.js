@@ -15,43 +15,43 @@ import shore from "../../img/shore.jpg";
 function Photos() {
   return (
     <>
-      <div className="photo-gallery container">
+      <div className="photo-gallery">
         <div className="row">
           <Nav />
-          <div className="col-md-3 p-3 text-center wow fadeIn delay-1s">
+          <div className="col-md-3 p-3 text-center wow fadeIn delay-2s">
             <img src={surprised} className="size350" alt="gallery" />
           </div>
-          <div className="col-md-3 p-3 text-center wow fadeIn delay-1s">
+          <div className="col-md-3 p-3 text-center wow fadeIn delay-2s">
             <img src={ringhand} className="size350" alt="gallery" />
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-3 p-3 text-center wow fadeIn delay-1s">
+          <div className="col-md-3 p-3 text-center wow fadeIn delay-2s">
             <img src={photo1} className="snapchat" alt="gallery" />
           </div>
-          <div className="col-md-3 p-3 text-center wow fadeIn delay-1s">
+          <div className="col-md-3 p-3 text-center wow fadeIn delay-2s">
             <img src={sandiego} className="snapchat" alt="gallery" />
           </div>
-          <div className="col-md-3 p-3 text-center wow fadeIn delay-1s">
+          <div className="col-md-3 p-3 text-center wow fadeIn delay-2s">
             <img src={seaisle} className="size350" alt="gallery" />
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-6 p-3 text-center wow fadeIn delay-1s">
+          <div className="col-md-6 p-3 text-center wow fadeIn delay-2s">
             <img src={alexaswedding} className="alexaswedding" alt="gallery" />
           </div>
-          <div className="col-md-3 p-3 text-center wow fadeIn delay-1s">
+          <div className="col-md-3 p-3 text-center wow fadeIn delay-2s">
             <img src={boat} className="size350" alt="gallery" />
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-2 p-3 text-center wow fadeIn delay-1s">
+          <div className="col-md-2 p-3 text-center wow fadeIn delay-2s">
             <img src={lola} className="size310" alt="gallery" />
           </div>
-          <div className="col-md-2 p-3 text-center wow fadeIn delay-1s">
+          <div className="col-md-2 p-3 text-center wow fadeIn delay-2s">
             <img src={lolamemike} className="memikelola" alt="gallery" />
           </div>
-          <div className="col-md-5 p-3 text-center wow fadeIn delay-1s">
+          <div className="col-md-5 p-3 text-center wow fadeIn delay-2s">
             <img src={shore} className="memikelola" alt="gallery" />
           </div>
         </div>

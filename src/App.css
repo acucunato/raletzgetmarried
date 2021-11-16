@@ -8,13 +8,6 @@
 
 body {
   font-family: "Bodoni Moda", serif;
-  /* font-family: "Merriweather", serif; */
-  font-weight: 300;
-  /* font-size: 14px; */
-  /* background: url("./img/rotatedraletz-10.png"); */
-  /* background-position: 125px 450px;
-  background-repeat: no-repeat;
-  background-size: 350px; */
 }
 
 h1,
@@ -22,6 +15,20 @@ h2 {
   font-family: la-bohemienne, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+button,
+.btn-black {
+  border-radius: 0;
+  font-family: "Bodoni Moda", serif;
+  color: white;
+  background-color: black;
+}
+
+button:hover,
+.btn-black:hover {
+  color: white;
+  background-color: rgb(102, 102, 102);
 }
 
 .horizontal-line {

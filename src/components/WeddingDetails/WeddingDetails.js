@@ -33,7 +33,7 @@ function WeddingDetails() {
               </h5>
               <div>arts ballroom</div>
               <div>1324 locust st, philadelphia, pa 19107</div>
-              <div className="small">11pm-12:30pm</div>
+              <div className="small">11pm-12:30am</div>
             </div>
           </div>
         </div>

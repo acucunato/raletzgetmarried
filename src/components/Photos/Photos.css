@@ -1,0 +1,27 @@
+@media screen and (max-width: 1024px) {
+  .photo-gallery {
+    justify-content: center;
+  }
+  .alexaswedding {
+    width: 300px;
+    height: 200px;
+  }
+  .size310 {
+    width: 150px;
+    height: 200px;
+  }
+  .snapchat {
+    width: 150px;
+    height: 250px;
+  }
+
+  .size350 {
+    width: 175px;
+    height: 275px;
+  }
+
+  .memikelola {
+    width: 150px;
+    height: 200px;
+  }
+}

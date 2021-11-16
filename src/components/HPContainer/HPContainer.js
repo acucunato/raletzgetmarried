@@ -16,9 +16,11 @@ function HPContainer() {
             </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              photos
-            </a>
+            <Link to="/photos">
+              <a className="nav-link" href="/photos">
+                photos
+              </a>
+            </Link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
@@ -41,7 +43,7 @@ function HPContainer() {
         <div className="hero-image mx-auto"></div>
       </div>
 
-      <div className="col-md-1 px-5 details wow fadeIn delay-3s">
+      <div className="col-md-1 px-5 details wow fadeIn delay-2s">
         <div className="quote">but i know now i've found the one i love.</div>
       </div>
     </div>

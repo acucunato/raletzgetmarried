@@ -5,6 +5,7 @@ import Monogram from "../components/Monogram/Monogram";
 
 import WeddingDetails from "../components/WeddingDetails/WeddingDetails";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Photos from "../components/Photos/Photos";
 
 function HomePage() {
   return (
@@ -16,6 +17,9 @@ function HomePage() {
         </Route>
         <Route exact path={["/details"]}>
           <WeddingDetails />
+        </Route>
+        <Route exact path={["/photos"]}>
+          <Photos />
         </Route>
       </Switch>
       <Footer />

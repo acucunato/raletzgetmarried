@@ -23,9 +23,11 @@ function Nav() {
             </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              photos
-            </a>
+            <Link to="/photos">
+              <a className="nav-link" href="/photos">
+                photos
+              </a>
+            </Link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">

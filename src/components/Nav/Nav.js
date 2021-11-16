@@ -30,19 +30,25 @@ function Nav() {
             </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              wedding party
-            </a>
+            <Link to="/wedding-party">
+              <a className="nav-link" href="/wedding-party">
+                wedding party
+              </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              hotel room blocks
-            </a>
+            <Link to="/hotel-room-blocks">
+              <a className="nav-link" href="/hotel-room-blocks">
+                hotel room blocks
+              </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              registry
-            </a>
+            <Link to="/registry">
+              <a className="nav-link" href="/registry">
+                registry
+              </a>
+            </Link>
           </li>
         </ul>
       </div>

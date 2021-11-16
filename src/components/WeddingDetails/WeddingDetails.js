@@ -8,7 +8,7 @@ function WeddingDetails() {
       <div className="details-pg">
         <div className="row">
           <Nav />
-          <div className="col-md-4 pt-3 text-center wow fadeIn delay-2s">
+          <div className="col-md-4 pt-3 p-1 text-center wow fadeIn delay-2s">
             <h1>we can't wait to celebrate with you</h1>
             <div className="hero-image-wd mx-auto"></div>
             <div className="horizontal-line-sm"></div>

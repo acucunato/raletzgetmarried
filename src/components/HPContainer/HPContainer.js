@@ -45,7 +45,7 @@ function HPContainer() {
           </li>
         </ul>
       </div>
-      <div className="col-md-5 pt-3 wow fadeIn delay-2s">
+      <div className="col-md-5 pt-3 p-1 wow fadeIn delay-2s">
         <div className="hero-image mx-auto"></div>
       </div>
 

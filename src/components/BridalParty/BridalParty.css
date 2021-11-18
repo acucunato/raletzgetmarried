@@ -3,6 +3,10 @@
   border: none;
 }
 
+.card-title {
+  margin-bottom: 0;
+}
+
 .weddingparty-img {
   overflow: hidden;
   object-fit: contain;
@@ -25,5 +29,11 @@
   .weddingparty-rows {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .card-title {
+    font-size: 24.5px;
   }
 }

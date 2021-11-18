@@ -1,0 +1,29 @@
+.card {
+  /* border-radius: 35% 35% 0 0; */
+  border: none;
+}
+
+.weddingparty-img {
+  overflow: hidden;
+  object-fit: contain;
+  max-width: 50%;
+  padding-top: 10px;
+}
+
+.weddingparty-rows {
+  padding-left: 250px;
+  padding-right: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .weddingparty-rows {
+    padding-left: 150px;
+    padding-right: 100px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .weddingparty-rows {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

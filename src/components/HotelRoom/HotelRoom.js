@@ -1,8 +1,6 @@
 import React from "react";
 import Nav from "../Nav/Nav";
 import "./HotelRoom.css";
-import cambria from "../../img/cambria.jpg";
-import doubletree from "../../img/doubletree.jpg";
 
 function HotelRoom() {
   return (
@@ -12,7 +10,11 @@ function HotelRoom() {
         <div className="col-md-3 pt-3 p-1 text-center wow fadeIn delay-2s">
           <h1 className="hotel-title">we'd love for you to stay</h1>
           <div className="cambria-hotel-container justify-content-center">
-            <img src={cambria} className="cambria-hotel" alt="cambria-hotel" />
+            <img
+              src="https://i.ibb.co/Sd8JYj0/cambria.jpg"
+              className="cambria-hotel"
+              alt="cambria-hotel"
+            />
 
             <h5 className="pt-2">
               <b>cambria hotel</b>
@@ -75,7 +77,7 @@ function HotelRoom() {
             </div>
             <br />
             <img
-              src={doubletree}
+              src="https://i.ibb.co/HCrV5nr/doubletree.jpg"
               className="doubletree-hotel"
               alt="doubletree-hotel"
             />

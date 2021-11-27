@@ -3,7 +3,6 @@ import Nav from "../Nav/Nav";
 import "./Photos.css";
 import surprised from "../../img/IMG_6785.jpg";
 import ringhand from "../../img/IMG_6741.jpg";
-import lola from "../../img/IMG_6915.jpg";
 
 function Photos() {
   return (
@@ -28,14 +27,14 @@ function Photos() {
           </div>
           <div className="col-md-3 p-1 text-center wow fadeIn delay-2s">
             <img
-              src="https://i.ibb.co/LNZRKsw/tiki.jpg"
+              src="https://i.ibb.co/hBFJLth/IMG-8284-1.jpg"
               className="photo-gallery"
               alt="gallery"
             />
           </div>
           <div className="col-md-3 p-1 text-center wow fadeIn delay-2s">
             <img
-              src="https://i.ibb.co/ZWQq7Br/2-CCAFC93-0-F18-4-EBD-AA92-C48-E2721-DE90-2.jpg"
+              src="https://i.ibb.co/LNZRKsw/tiki.jpg"
               className="photo-gallery"
               alt="gallery"
             />
@@ -51,7 +50,7 @@ function Photos() {
           </div>
           <div className="col-md-3 p-1 text-center wow fadeIn delay-2s">
             <img
-              src="https://i.ibb.co/dbDtnC5/boat.jpg"
+              src="https://i.ibb.co/sJfWx1Q/IMG-8228-1.jpg"
               className="photo-gallery"
               alt="gallery"
             />
@@ -59,11 +58,18 @@ function Photos() {
         </div>
         <div className="row justify-content-center">
           <div className="col-md-2 p-1 text-center wow fadeIn delay-2s">
-            <img src={lola} className="photo-gallery" alt="gallery" />
+            <img
+              src="
+              https://i.ibb.co/dbDtnC5/boat.jpg
+              "
+              className="photo-gallery"
+              alt="gallery"
+            />
           </div>
           <div className="col-md-2 p-1 text-center wow fadeIn delay-2s">
             <img
-              src="https://i.ibb.co/HGgqFz1/47-BC7779-A5-DE-4-A27-B779-7-E9-F9195-C26-D-2.jpg"
+              src=" 
+              https://i.ibb.co/HGgqFz1/47-BC7779-A5-DE-4-A27-B779-7-E9-F9195-C26-D-2.jpg"
               className="photo-gallery"
               alt="gallery"
             />
@@ -79,7 +85,7 @@ function Photos() {
         <div className="row justify-content-center">
           <div className="col-md-3 p-1 text-center wow fadeIn delay-2s">
             <img
-              src="https://i.ibb.co/tz704Hr/paigewedding.jpg"
+              src="https://i.ibb.co/fDs1nmH/IMG-8273-1.jpg"
               className="photo-gallery"
               alt="gallery"
             />

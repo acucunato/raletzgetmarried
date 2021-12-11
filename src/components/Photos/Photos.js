@@ -85,7 +85,7 @@ function Photos() {
         <div className="row justify-content-center">
           <div className="col-md-3 p-1 text-center wow fadeIn delay-2s">
             <img
-              src="https://i.ibb.co/fDs1nmH/IMG-8273-1.jpg"
+              src="https://i.ibb.co/SXmfnh7/IMG-8352.jpg"
               className="photo-gallery"
               alt="gallery"
             />

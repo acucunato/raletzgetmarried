@@ -27,7 +27,7 @@ function HotelRoom() {
                 <b>to reserve rooms</b>
               </div>
               <div className="small">
-                call 1(877) 424-6423 and request the room rate for
+                call the hotel, press 1 and request the room rate for
               </div>
               <div>
                 cucunato <span className="andsign">&</span> raletz wedding
@@ -41,9 +41,15 @@ function HotelRoom() {
             </div>
             <br />
             <div>
-              <button type="button" class="btn btn-black">
-                coming soon
-              </button>
+              <a
+                href="https://www.choicehotels.com/reservations/groups/RS60W2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-black">
+                  book at cambria
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -60,10 +66,9 @@ function HotelRoom() {
               <div>
                 <b>to reserve rooms</b>
               </div>
-              <div className="small">call and request the room rate for</div>
               <div>cucunato-raletz wedding room block</div>
               <div className="small">
-                or reserve online by clicking button below
+                reserve online by clicking button below
               </div>
               <div className="small text-muted">
                 <i>must reserve before october 11, 2022</i>
@@ -71,9 +76,15 @@ function HotelRoom() {
             </div>
             <br />
             <div>
-              <button type="button" class="btn btn-black">
-                coming soon
-              </button>
+              <a
+                href="https://book.passkey.com/e/50271035"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button type="button" class="btn btn-black">
+                  book at hilton
+                </button>
+              </a>
             </div>
             <br />
             <img

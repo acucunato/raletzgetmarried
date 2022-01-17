@@ -76,10 +76,10 @@ function BridalParty() {
           ))}
         </div>
 
-        <div className="horizontal-line-sm wow fadeIn delay-2s"></div>
+        {/* <div className="horizontal-line-sm wow fadeIn delay-2s"></div> */}
 
         {/* flower girl ring bearer */}
-        <div className="row justify-content-center weddingparty-rows">
+        {/* <div className="row justify-content-center weddingparty-rows">
           {kids.map((kid) => (
             <div className="col-md-4 pt-3 p-1 text-center wow fadeIn delay-2s">
               <div className="card">
@@ -95,7 +95,7 @@ function BridalParty() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </>
   );

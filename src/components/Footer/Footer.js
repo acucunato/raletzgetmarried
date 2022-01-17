@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="page-bottom text-center wow fadeIn delay-2s">
+    <div className="page-bottom text-center wow fadeIn">
       <div className="horizontal-line"></div>
       <div className="row">
         <div className="col-md-6">

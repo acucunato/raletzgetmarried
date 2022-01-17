@@ -7,7 +7,7 @@ function HPContainer() {
     <div className="row">
       <div className="col-md-2"></div>
       <div className="col-md-2">
-        <ul class="nav flex-column wedding-nav pt-3 pb-3 wow fadeIn delay-1s">
+        <ul class="nav flex-column wedding-nav pt-3 pb-3 wow fadeIn">
           <li class="nav-item">
             <Link to="/details">
               <a className="nav-link" href="/details">
@@ -45,11 +45,11 @@ function HPContainer() {
           </li>
         </ul>
       </div>
-      <div className="col-md-5 pt-3 p-1 wow fadeIn delay-2s">
+      <div className="col-md-5 pt-3 p-1 wow fadeIn ">
         <div className="hero-image mx-auto"></div>
       </div>
 
-      <div className="col-md-1 px-5 details wow fadeIn delay-2s">
+      <div className="col-md-1 px-5 details wow fadeIn ">
         <div className="quote">but i know now i've found the one i love.</div>
       </div>
     </div>

@@ -7,7 +7,7 @@ function HotelRoom() {
     <div className="hotel-room-block">
       <div className="row">
         <Nav />
-        <div className="col-md-3 pt-3 p-1 text-center wow fadeIn delay-2s">
+        <div className="col-md-3 pt-3 p-1 text-center wow fadeIn ">
           <h1 className="hotel-title">we'd love for you to stay</h1>
           <div className="cambria-hotel-container justify-content-center">
             <img
@@ -54,7 +54,7 @@ function HotelRoom() {
           </div>
         </div>
 
-        <div className="col-md-3 pt-5 p-1 text-center wow fadeIn delay-2s">
+        <div className="col-md-3 pt-5 p-1 text-center wow fadeIn">
           <div className="doubletree-hotel-container justify-content-center">
             <h5>
               <b>doubletree hilton center city</b>

@@ -3,7 +3,7 @@ import Nav from "../Nav/Nav";
 import "./BridalParty.css";
 import bridesmaids from "./bridesmaids.json";
 import groomsman from "./groomsmen.json";
-import kids from "./flowergirlringbearer.json";
+// import kids from "./flowergirlringbearer.json";
 
 function BridalParty() {
   return (
@@ -11,7 +11,7 @@ function BridalParty() {
       <div className="wedding-party">
         <div className="row">
           <Nav />
-          <div className="col-md-3 pt-3 p-1 text-center wow fadeIn delay-2s">
+          <div className="col-md-3 pt-3 p-1 text-center wow fadeIn">
             <div className="card">
               <img
                 className="card-img-top rounded-circle weddingparty-img mx-auto"
@@ -24,7 +24,7 @@ function BridalParty() {
               </div>
             </div>
           </div>
-          <div className="col-md-3 pt-3 p-1 text-center wow fadeIn delay-2s">
+          <div className="col-md-3 pt-3 p-1 text-center wow fadeIn">
             <div className="card">
               <img
                 className="card-img-top rounded-circle weddingparty-img mx-auto"
@@ -41,7 +41,7 @@ function BridalParty() {
         {/* bridesmaids */}
         <div className="row justify-content-center weddingparty-rows">
           {bridesmaids.map((bridesmaid) => (
-            <div className="col-md-4 pt-3 p-1 text-center wow fadeIn delay-2s">
+            <div className="col-md-4 pt-3 p-1 text-center wow fadeIn ">
               <div className="card">
                 <img
                   className="card-img-top rounded-circle weddingparty-img mx-auto"
@@ -56,11 +56,11 @@ function BridalParty() {
             </div>
           ))}
         </div>
-        <div className="horizontal-line-sm wow fadeIn delay-2s"></div>
+        <div className="horizontal-line-sm wow fadeIn "></div>
         {/* groomsmen */}
         <div className="row justify-content-center weddingparty-rows">
           {groomsman.map((groomsman) => (
-            <div className="col-md-4 pt-3 p-1 text-center wow fadeIn delay-2s">
+            <div className="col-md-4 pt-3 p-1 text-center wow fadeIn ">
               <div className="card">
                 <img
                   className="card-img-top rounded-circle weddingparty-img mx-auto"
@@ -76,12 +76,12 @@ function BridalParty() {
           ))}
         </div>
 
-        {/* <div className="horizontal-line-sm wow fadeIn delay-2s"></div> */}
+        {/* <div className="horizontal-line-sm wow fadeIn "></div> */}
 
         {/* flower girl ring bearer */}
         {/* <div className="row justify-content-center weddingparty-rows">
           {kids.map((kid) => (
-            <div className="col-md-4 pt-3 p-1 text-center wow fadeIn delay-2s">
+            <div className="col-md-4 pt-3 p-1 text-center wow fadeIn ">
               <div className="card">
                 <img
                   className="card-img-top rounded-circle weddingparty-img mx-auto"

@@ -7,7 +7,7 @@ function Nav() {
     <>
       <div className="col-md-2"></div>
       <div className="col-md-2">
-        <ul class="nav flex-column wedding-nav pt-3 pb-3 wow fadeIn delay-1s">
+        <ul class="nav flex-column wedding-nav pt-3 pb-3 wow fadeIn">
           <li class="nav-item">
             <Link to="/">
               <a className="nav-link" href="/">

@@ -3,7 +3,6 @@ import Nav from "../Nav/Nav";
 import "./BridalParty.css";
 import bridesmaids from "./bridesmaids.json";
 import groomsman from "./groomsmen.json";
-// import kids from "./flowergirlringbearer.json";
 
 function BridalParty() {
   return (
@@ -75,27 +74,6 @@ function BridalParty() {
             </div>
           ))}
         </div>
-
-        {/* <div className="horizontal-line-sm wow fadeIn "></div> */}
-
-        {/* flower girl ring bearer */}
-        {/* <div className="row justify-content-center weddingparty-rows">
-          {kids.map((kid) => (
-            <div className="col-md-4 pt-3 p-1 text-center wow fadeIn ">
-              <div className="card">
-                <img
-                  className="card-img-top rounded-circle weddingparty-img mx-auto"
-                  src={kid.photo}
-                  alt="wedding-party"
-                />
-                <div className="card-body">
-                  <h1 className="card-title">{kid.name}</h1>
-                  <b className="card-text">{kid.title}</b>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div> */}
       </div>
     </>
   );

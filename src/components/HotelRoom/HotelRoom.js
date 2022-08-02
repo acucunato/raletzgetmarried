@@ -7,7 +7,7 @@ function HotelRoom() {
     <div className="hotel-room-block">
       <div className="row">
         <Nav />
-        <div className="col-md-3 pt-3 p-1 text-center wow fadeIn ">
+        <div className="col-md-3 pt-3 p-1 text-center wow fadeIn">
           <h1 className="hotel-title">we'd love for you to stay</h1>
           <div className="cambria-hotel-container justify-content-center">
             <img

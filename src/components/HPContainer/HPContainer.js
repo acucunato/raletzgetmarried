@@ -43,6 +43,13 @@ function HPContainer() {
               </a>
             </Link>
           </li>
+          <li class="nav-item">
+            <Link to="/rsvp">
+              <a className="nav-link" href="/rsvp">
+                rsvp
+              </a>
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="col-md-5 pt-3 p-1 wow fadeIn ">

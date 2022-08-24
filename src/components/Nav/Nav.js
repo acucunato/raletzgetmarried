@@ -50,6 +50,13 @@ function Nav() {
               </a>
             </Link>
           </li>
+          <li class="nav-item">
+            <Link to="/rsvp">
+              <a className="nav-link" href="/rsvp">
+                rsvp
+              </a>
+            </Link>
+          </li>
         </ul>
       </div>
     </>

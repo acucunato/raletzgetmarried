@@ -9,6 +9,7 @@ import Photos from "../components/Photos/Photos";
 import Registry from "../components/Registry/Registry";
 import BridalParty from "../components/BridalParty/BridalParty";
 import HotelRoom from "../components/HotelRoom/HotelRoom";
+import RSVP from "../components/RSVP/RSVP";
 
 function HomePage() {
   return (
@@ -32,6 +33,9 @@ function HomePage() {
         </Route>
         <Route exact path={["/registry"]}>
           <Registry />
+        </Route>
+        <Route exact path={["/rsvp"]}>
+          <RSVP />
         </Route>
       </Switch>
       <Footer />

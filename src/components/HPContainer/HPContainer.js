@@ -37,6 +37,13 @@ function HPContainer() {
             </Link>
           </li>
           <li class="nav-item">
+            <Link to="/faq">
+              <a className="nav-link" href="/faq">
+                q&a
+              </a>
+            </Link>
+          </li>
+          <li class="nav-item">
             <Link to="/registry">
               <a className="nav-link" href="/registry">
                 registry

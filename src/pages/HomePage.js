@@ -10,6 +10,7 @@ import Registry from "../components/Registry/Registry";
 import BridalParty from "../components/BridalParty/BridalParty";
 import HotelRoom from "../components/HotelRoom/HotelRoom";
 import RSVP from "../components/RSVP/RSVP";
+import FAQ from "../components/FAQ/FAQ";
 
 function HomePage() {
   return (
@@ -30,6 +31,9 @@ function HomePage() {
         </Route>
         <Route exact path={["/hotel-room-blocks"]}>
           <HotelRoom />
+        </Route>
+        <Route exact path={["/faq"]}>
+          <FAQ />
         </Route>
         <Route exact path={["/registry"]}>
           <Registry />

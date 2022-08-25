@@ -7,6 +7,13 @@ function Registry() {
     <div className="registry">
       <div className="row">
         <Nav />
+        <div className="col-md-3 pt-5 p-1 text-center wow fadeIn">
+          <img
+            src="https://i.ibb.co/HN2MZ2q/Raletz-Engagement-008bw.jpg"
+            className="raletz-engagement"
+            alt="raletz-engagement"
+          />
+        </div>
         <div className="col-md-3 pt-3 p-1 text-center wow fadeIn">
           <h1 className="registry-title justify-content-center">registry</h1>
           <div className="pb-3 justify-content-center">
@@ -42,13 +49,6 @@ function Registry() {
             </div>
             <br />
           </div>
-        </div>
-        <div className="col-md-3 pt-5 p-1 text-center wow fadeIn">
-          <img
-            src="https://i.ibb.co/HN2MZ2q/Raletz-Engagement-008bw.jpg"
-            className="raletz-engagement"
-            alt="raletz-engagement"
-          />
         </div>
       </div>
     </div>

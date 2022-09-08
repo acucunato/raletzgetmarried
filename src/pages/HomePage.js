@@ -32,14 +32,14 @@ function HomePage() {
         <Route exact path={["/hotel-room-blocks"]}>
           <HotelRoom />
         </Route>
-        <Route exact path={["/faq"]}>
-          <FAQ />
-        </Route>
         <Route exact path={["/registry"]}>
           <Registry />
         </Route>
         <Route exact path={["/rsvp"]}>
           <RSVP />
+        </Route>
+        <Route exact path={["/faq"]}>
+          <FAQ />
         </Route>
       </Switch>
       <Footer />
